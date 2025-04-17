@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>AI Weather API Program</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="AI_API_WEATHER_APP_CODE.js"></script>
+
+        <!-- Add styling here -->
+    </head>
+
+        <body>
+            
+            <form id ="weather-form">
+
+                <section class = "header"></section>
+                    <header>
+                        <h1>Weather API</h1>
+                        <p>Get the latest weather updates</p>
+                    </header>    
+                    
+                </section>
+
+                <section class="weather-info">
+                    <div class="form-group">
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="cityINPUT" required>
+                    </div>
+
+                    <br>
+
+                <section class="submit-weather-input>
+                    <div class="submit-button"></section>
+                        <button type="submit" onclick="getWeatherAPI()">Get Local Weather</button>
+                    </div>
+                </section>
+
+
+                <!-- Weather output section as image -->
+                <section class="weather-output"> 
+                    <div id="temp-div"></div>
+
+                    <div id="weather-info"></div>
+
+                    <div id="hourly-forecast"></div>
+                </section>
+
+                </section>
+
+            </form>
+        </body>
+
+</html>
